@@ -170,6 +170,8 @@
 }
 
 - (void)printBusiness{}
+- (void)setModel:(id)model{}
+- (id)model{return nil;}
 
 - (void)printBlodText:(NSString *)text
 {
