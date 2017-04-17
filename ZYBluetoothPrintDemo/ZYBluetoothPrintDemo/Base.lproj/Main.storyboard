@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="LoV-1S-a6r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="GEN-2c-h8y">
+                                <rect key="frame" x="68" y="227" width="240" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="Hou-90-ldk"/>
+                                    <constraint firstAttribute="height" constant="128" id="vLm-Iv-RMN"/>
+                                </constraints>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l9h-ys-LVs">
+                                <rect key="frame" x="68" y="390" width="77" height="30"/>
+                                <state key="normal" title="选择打印机"/>
+                                <connections>
+                                    <action selector="selectClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2Fu-zM-395"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sGC-g2-KLw">
+                                <rect key="frame" x="157" y="450" width="62" height="30"/>
+                                <state key="normal" title="开始打印"/>
+                                <connections>
+                                    <action selector="printClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5gK-kh-EZ6"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=":" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vpS-f6-bcd">
+                                <rect key="frame" x="149" y="395" width="5" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="未选择打印机" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i3d-gu-cUJ">
+                                <rect key="frame" x="177" y="395" width="104" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="l9h-ys-LVs" firstAttribute="top" secondItem="GEN-2c-h8y" secondAttribute="bottom" constant="35" id="1Ja-LP-l12"/>
+                            <constraint firstItem="sGC-g2-KLw" firstAttribute="top" secondItem="GEN-2c-h8y" secondAttribute="bottom" constant="95" id="1j8-CK-vCu"/>
+                            <constraint firstItem="GEN-2c-h8y" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="163" id="8SK-lP-a5t"/>
+                            <constraint firstItem="l9h-ys-LVs" firstAttribute="leading" secondItem="GEN-2c-h8y" secondAttribute="leading" id="9nm-Sx-J8D"/>
+                            <constraint firstItem="vpS-f6-bcd" firstAttribute="centerY" secondItem="l9h-ys-LVs" secondAttribute="centerY" id="Awb-mX-1TA"/>
+                            <constraint firstItem="GEN-2c-h8y" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="GJR-rK-gfp"/>
+                            <constraint firstItem="sGC-g2-KLw" firstAttribute="centerX" secondItem="GEN-2c-h8y" secondAttribute="centerX" id="Jws-C7-y8p"/>
+                            <constraint firstItem="i3d-gu-cUJ" firstAttribute="leading" secondItem="l9h-ys-LVs" secondAttribute="trailing" constant="32" id="Tgv-uA-t9R"/>
+                            <constraint firstItem="i3d-gu-cUJ" firstAttribute="centerY" secondItem="l9h-ys-LVs" secondAttribute="centerY" id="aCh-wv-xH8"/>
+                            <constraint firstItem="vpS-f6-bcd" firstAttribute="leading" secondItem="l9h-ys-LVs" secondAttribute="trailing" constant="4" id="xTC-Wi-wOw"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="gfy-1c-vaf"/>
+                    <connections>
+                        <outlet property="nameL" destination="i3d-gu-cUJ" id="ACh-bc-e0H"/>
+                        <outlet property="textV" destination="GEN-2c-h8y" id="Egc-Ao-LuZ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="972" y="38.23088455772114"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="mIA-7E-ccH">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="LoV-1S-a6r" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="FM7-HG-7Cr">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="biV-2Z-dBf"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="to3-dY-9JY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="92" y="-644.52773613193403"/>
+        </scene>
+    </scenes>
+</document>

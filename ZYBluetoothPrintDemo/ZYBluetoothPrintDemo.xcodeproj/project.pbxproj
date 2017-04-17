@@ -1,0 +1,438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5882343A1EA45AE500208312 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 588234391EA45AE500208312 /* main.m */; };
+		5882343D1EA45AE500208312 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5882343C1EA45AE500208312 /* AppDelegate.m */; };
+		588234401EA45AE500208312 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5882343F1EA45AE500208312 /* ViewController.m */; };
+		588234431EA45AE500208312 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 588234411EA45AE500208312 /* Main.storyboard */; };
+		588234451EA45AE500208312 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 588234441EA45AE500208312 /* Assets.xcassets */; };
+		588234481EA45AE500208312 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 588234461EA45AE500208312 /* LaunchScreen.storyboard */; };
+		588234531EA4636000208312 /* ZYESCPOSDataTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 588234521EA4636000208312 /* ZYESCPOSDataTool.m */; };
+		588234561EA4642B00208312 /* UIImage+Bitmap.m in Sources */ = {isa = PBXBuildFile; fileRef = 588234551EA4642B00208312 /* UIImage+Bitmap.m */; };
+		5882345B1EA4A95200208312 /* ZYBTPrinterTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 588234581EA4A95200208312 /* ZYBTPrinterTool.m */; };
+		5882345C1EA4A95200208312 /* ZYMFIPrinterTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 5882345A1EA4A95200208312 /* ZYMFIPrinterTool.m */; };
+		5882346F1EA4AB2900208312 /* libBixolonUPOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5882346C1EA4AB2900208312 /* libBixolonUPOS.a */; };
+		588234701EA4AB2900208312 /* UPOSPrinterController+ZY.m in Sources */ = {isa = PBXBuildFile; fileRef = 5882346E1EA4AB2900208312 /* UPOSPrinterController+ZY.m */; };
+		588234BD1EA4B60500208312 /* ZYBlueToothTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 588234BC1EA4B60500208312 /* ZYBlueToothTool.m */; };
+		588234C01EA4C14B00208312 /* BTListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 588234BF1EA4C14B00208312 /* BTListTableViewController.m */; };
+		588234C31EA4C31800208312 /* DemoTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 588234C21EA4C31800208312 /* DemoTool.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		588234351EA45AE500208312 /* ZYBluetoothPrintDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZYBluetoothPrintDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		588234391EA45AE500208312 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5882343B1EA45AE500208312 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5882343C1EA45AE500208312 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5882343E1EA45AE500208312 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5882343F1EA45AE500208312 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		588234421EA45AE500208312 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		588234441EA45AE500208312 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		588234471EA45AE500208312 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		588234491EA45AE500208312 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		588234501EA45F6D00208312 /* ZYPrinterDataProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYPrinterDataProtocol.h; sourceTree = "<group>"; };
+		588234511EA4636000208312 /* ZYESCPOSDataTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYESCPOSDataTool.h; sourceTree = "<group>"; };
+		588234521EA4636000208312 /* ZYESCPOSDataTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYESCPOSDataTool.m; sourceTree = "<group>"; };
+		588234541EA4642B00208312 /* UIImage+Bitmap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Bitmap.h"; sourceTree = "<group>"; };
+		588234551EA4642B00208312 /* UIImage+Bitmap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Bitmap.m"; sourceTree = "<group>"; };
+		588234571EA4A95200208312 /* ZYBTPrinterTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYBTPrinterTool.h; sourceTree = "<group>"; };
+		588234581EA4A95200208312 /* ZYBTPrinterTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYBTPrinterTool.m; sourceTree = "<group>"; };
+		588234591EA4A95200208312 /* ZYMFIPrinterTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYMFIPrinterTool.h; sourceTree = "<group>"; };
+		5882345A1EA4A95200208312 /* ZYMFIPrinterTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYMFIPrinterTool.m; sourceTree = "<group>"; };
+		5882345D1EA4AA8600208312 /* ZYPrinterProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYPrinterProtocol.h; sourceTree = "<group>"; };
+		588234601EA4AB2900208312 /* BixolonUPOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BixolonUPOS.h; sourceTree = "<group>"; };
+		588234611EA4AB2900208312 /* UPOSCDController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPOSCDController.h; sourceTree = "<group>"; };
+		588234621EA4AB2900208312 /* UPOSDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPOSDefines.h; sourceTree = "<group>"; };
+		588234631EA4AB2900208312 /* UPOSDefinesCashDrawer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPOSDefinesCashDrawer.h; sourceTree = "<group>"; };
+		588234641EA4AB2900208312 /* UPOSDefinesPrinter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPOSDefinesPrinter.h; sourceTree = "<group>"; };
+		588234651EA4AB2900208312 /* UPOSDefinesScr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPOSDefinesScr.h; sourceTree = "<group>"; };
+		588234661EA4AB2900208312 /* UPOSDeviceControlDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPOSDeviceControlDelegate.h; sourceTree = "<group>"; };
+		588234671EA4AB2900208312 /* UPOSDeviceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPOSDeviceController.h; sourceTree = "<group>"; };
+		588234681EA4AB2900208312 /* UPOSDevices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPOSDevices.h; sourceTree = "<group>"; };
+		588234691EA4AB2900208312 /* UPOSMSRController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPOSMSRController.h; sourceTree = "<group>"; };
+		5882346A1EA4AB2900208312 /* UPOSPrinterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPOSPrinterController.h; sourceTree = "<group>"; };
+		5882346B1EA4AB2900208312 /* UPOSSCRController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPOSSCRController.h; sourceTree = "<group>"; };
+		5882346C1EA4AB2900208312 /* libBixolonUPOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libBixolonUPOS.a; sourceTree = "<group>"; };
+		5882346D1EA4AB2900208312 /* UPOSPrinterController+ZY.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UPOSPrinterController+ZY.h"; sourceTree = "<group>"; };
+		5882346E1EA4AB2900208312 /* UPOSPrinterController+ZY.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UPOSPrinterController+ZY.m"; sourceTree = "<group>"; };
+		588234BB1EA4B60500208312 /* ZYBlueToothTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYBlueToothTool.h; sourceTree = "<group>"; };
+		588234BC1EA4B60500208312 /* ZYBlueToothTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYBlueToothTool.m; sourceTree = "<group>"; };
+		588234BE1EA4C14B00208312 /* BTListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTListTableViewController.h; sourceTree = "<group>"; };
+		588234BF1EA4C14B00208312 /* BTListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTListTableViewController.m; sourceTree = "<group>"; };
+		588234C11EA4C31800208312 /* DemoTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoTool.h; sourceTree = "<group>"; };
+		588234C21EA4C31800208312 /* DemoTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoTool.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		588234321EA45AE500208312 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5882346F1EA4AB2900208312 /* libBixolonUPOS.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5882342C1EA45AE500208312 = {
+			isa = PBXGroup;
+			children = (
+				588234371EA45AE500208312 /* ZYBluetoothPrintDemo */,
+				588234361EA45AE500208312 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		588234361EA45AE500208312 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				588234351EA45AE500208312 /* ZYBluetoothPrintDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		588234371EA45AE500208312 /* ZYBluetoothPrintDemo */ = {
+			isa = PBXGroup;
+			children = (
+				5882343B1EA45AE500208312 /* AppDelegate.h */,
+				5882343C1EA45AE500208312 /* AppDelegate.m */,
+				5882343E1EA45AE500208312 /* ViewController.h */,
+				5882343F1EA45AE500208312 /* ViewController.m */,
+				588234BE1EA4C14B00208312 /* BTListTableViewController.h */,
+				588234BF1EA4C14B00208312 /* BTListTableViewController.m */,
+				588234C11EA4C31800208312 /* DemoTool.h */,
+				588234C21EA4C31800208312 /* DemoTool.m */,
+				5882344F1EA45C7100208312 /* ZYPrinterSDK */,
+				588234381EA45AE500208312 /* Supporting Files */,
+			);
+			path = ZYBluetoothPrintDemo;
+			sourceTree = "<group>";
+		};
+		588234381EA45AE500208312 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				588234411EA45AE500208312 /* Main.storyboard */,
+				588234441EA45AE500208312 /* Assets.xcassets */,
+				588234461EA45AE500208312 /* LaunchScreen.storyboard */,
+				588234491EA45AE500208312 /* Info.plist */,
+				588234391EA45AE500208312 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5882344F1EA45C7100208312 /* ZYPrinterSDK */ = {
+			isa = PBXGroup;
+			children = (
+				588234501EA45F6D00208312 /* ZYPrinterDataProtocol.h */,
+				5882345D1EA4AA8600208312 /* ZYPrinterProtocol.h */,
+				588234571EA4A95200208312 /* ZYBTPrinterTool.h */,
+				588234581EA4A95200208312 /* ZYBTPrinterTool.m */,
+				588234591EA4A95200208312 /* ZYMFIPrinterTool.h */,
+				5882345A1EA4A95200208312 /* ZYMFIPrinterTool.m */,
+				588234511EA4636000208312 /* ZYESCPOSDataTool.h */,
+				588234521EA4636000208312 /* ZYESCPOSDataTool.m */,
+				588234541EA4642B00208312 /* UIImage+Bitmap.h */,
+				588234551EA4642B00208312 /* UIImage+Bitmap.m */,
+				588234BB1EA4B60500208312 /* ZYBlueToothTool.h */,
+				588234BC1EA4B60500208312 /* ZYBlueToothTool.m */,
+				5882345E1EA4AB2900208312 /* BXLPrinter */,
+				5882346D1EA4AB2900208312 /* UPOSPrinterController+ZY.h */,
+				5882346E1EA4AB2900208312 /* UPOSPrinterController+ZY.m */,
+			);
+			path = ZYPrinterSDK;
+			sourceTree = "<group>";
+		};
+		5882345E1EA4AB2900208312 /* BXLPrinter */ = {
+			isa = PBXGroup;
+			children = (
+				5882345F1EA4AB2900208312 /* libBixolonUPOS */,
+				5882346C1EA4AB2900208312 /* libBixolonUPOS.a */,
+			);
+			path = BXLPrinter;
+			sourceTree = "<group>";
+		};
+		5882345F1EA4AB2900208312 /* libBixolonUPOS */ = {
+			isa = PBXGroup;
+			children = (
+				588234601EA4AB2900208312 /* BixolonUPOS.h */,
+				588234611EA4AB2900208312 /* UPOSCDController.h */,
+				588234621EA4AB2900208312 /* UPOSDefines.h */,
+				588234631EA4AB2900208312 /* UPOSDefinesCashDrawer.h */,
+				588234641EA4AB2900208312 /* UPOSDefinesPrinter.h */,
+				588234651EA4AB2900208312 /* UPOSDefinesScr.h */,
+				588234661EA4AB2900208312 /* UPOSDeviceControlDelegate.h */,
+				588234671EA4AB2900208312 /* UPOSDeviceController.h */,
+				588234681EA4AB2900208312 /* UPOSDevices.h */,
+				588234691EA4AB2900208312 /* UPOSMSRController.h */,
+				5882346A1EA4AB2900208312 /* UPOSPrinterController.h */,
+				5882346B1EA4AB2900208312 /* UPOSSCRController.h */,
+			);
+			path = libBixolonUPOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		588234341EA45AE500208312 /* ZYBluetoothPrintDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5882344C1EA45AE500208312 /* Build configuration list for PBXNativeTarget "ZYBluetoothPrintDemo" */;
+			buildPhases = (
+				588234311EA45AE500208312 /* Sources */,
+				588234321EA45AE500208312 /* Frameworks */,
+				588234331EA45AE500208312 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZYBluetoothPrintDemo;
+			productName = ZYBluetoothPrintDemo;
+			productReference = 588234351EA45AE500208312 /* ZYBluetoothPrintDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5882342D1EA45AE500208312 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = ZYSu;
+				TargetAttributes = {
+					588234341EA45AE500208312 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = H2J9G32HB2;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 588234301EA45AE500208312 /* Build configuration list for PBXProject "ZYBluetoothPrintDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5882342C1EA45AE500208312;
+			productRefGroup = 588234361EA45AE500208312 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				588234341EA45AE500208312 /* ZYBluetoothPrintDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		588234331EA45AE500208312 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				588234481EA45AE500208312 /* LaunchScreen.storyboard in Resources */,
+				588234451EA45AE500208312 /* Assets.xcassets in Resources */,
+				588234431EA45AE500208312 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		588234311EA45AE500208312 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				588234BD1EA4B60500208312 /* ZYBlueToothTool.m in Sources */,
+				588234401EA45AE500208312 /* ViewController.m in Sources */,
+				588234531EA4636000208312 /* ZYESCPOSDataTool.m in Sources */,
+				588234701EA4AB2900208312 /* UPOSPrinterController+ZY.m in Sources */,
+				588234561EA4642B00208312 /* UIImage+Bitmap.m in Sources */,
+				5882343D1EA45AE500208312 /* AppDelegate.m in Sources */,
+				5882345C1EA4A95200208312 /* ZYMFIPrinterTool.m in Sources */,
+				5882343A1EA45AE500208312 /* main.m in Sources */,
+				588234C31EA4C31800208312 /* DemoTool.m in Sources */,
+				5882345B1EA4A95200208312 /* ZYBTPrinterTool.m in Sources */,
+				588234C01EA4C14B00208312 /* BTListTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		588234411EA45AE500208312 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				588234421EA45AE500208312 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		588234461EA45AE500208312 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				588234471EA45AE500208312 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5882344A1EA45AE500208312 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5882344B1EA45AE500208312 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5882344D1EA45AE500208312 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = H2J9G32HB2;
+				INFOPLIST_FILE = ZYBluetoothPrintDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ZYBluetoothPrintDemo/ZYPrinterSDK/BXLPrinter",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.juniuwangpu.ZYBluetoothPrintDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "472d7fd3-dee5-4490-a491-5e64f06a4cb8";
+				PROVISIONING_PROFILE_SPECIFIER = AllDevelop;
+			};
+			name = Debug;
+		};
+		5882344E1EA45AE500208312 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = H2J9G32HB2;
+				INFOPLIST_FILE = ZYBluetoothPrintDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ZYBluetoothPrintDemo/ZYPrinterSDK/BXLPrinter",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.juniuwangpu.ZYBluetoothPrintDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "472d7fd3-dee5-4490-a491-5e64f06a4cb8";
+				PROVISIONING_PROFILE_SPECIFIER = AllDevelop;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		588234301EA45AE500208312 /* Build configuration list for PBXProject "ZYBluetoothPrintDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5882344A1EA45AE500208312 /* Debug */,
+				5882344B1EA45AE500208312 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5882344C1EA45AE500208312 /* Build configuration list for PBXNativeTarget "ZYBluetoothPrintDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5882344D1EA45AE500208312 /* Debug */,
+				5882344E1EA45AE500208312 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5882342D1EA45AE500208312 /* Project object */;
+}
